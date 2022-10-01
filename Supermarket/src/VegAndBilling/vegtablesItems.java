@@ -22,5 +22,6 @@ public class vegtablesItems extends FriutsItems{
 		bi.veg();
 		bi.apple();
 		bi.MILK();
+		System.out.println("new line added");
 	}		
 }
