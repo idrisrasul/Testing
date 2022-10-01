@@ -1,0 +1,32 @@
+package Newpro;
+
+public class Forloop {
+	public void loop1() {
+		int a=0;
+		for(a=0;a<5;a++) {
+			System.out.println(a);
+		}
+	}
+	public void loop2() {
+		int a;
+		for(a=1;a<30;a++) {
+			if(a%2==0) {
+				System.out.println("This is even :"+a);
+			}
+		}
+	}
+	public void loop3() {
+		int a;
+		for(a=1;a<30;a++) {
+			if(a%2==1) {
+				System.out.println("This is ODD :"+a);
+			}
+		}
+	}
+	public static void main(String[] args) {
+		Forloop fb=new Forloop();
+		fb.loop1();
+		fb.loop2();
+		fb.loop3();
+	}
+}

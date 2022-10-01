@@ -1,0 +1,23 @@
+package Newpro;
+
+public class stringconcept {
+
+	public void string1() {
+		String s="insha allah";
+		System.out.println(s.charAt(1));
+		System.out.println(s.toLowerCase());
+		System.out.println(s.toUpperCase());
+		System.out.println(s.indexOf(0));
+	}
+	public void string2() {
+		String a="masha allah";
+		String b="alhamdulillah";
+		
+		a.contains(b);
+	}
+	
+	public static void main(String[] args) {
+		stringconcept cd=new stringconcept();
+		cd.string1();
+	}
+}

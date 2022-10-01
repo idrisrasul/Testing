@@ -1,0 +1,23 @@
+package Newpro;
+
+public class supermark {
+
+	public supermark(String veg,String nonveg,String milk) {
+		this(100,200,50);
+		String vegname=veg;
+		String nonvegname=nonveg;
+		String milkname=milk;
+		System.out.println("print All Items names :"+vegname+","+nonvegname+","+milkname);
+	}
+	public supermark(int veg,int nonveg,int milk) {
+		int vegrate=veg;
+		int nonvegrate=nonveg;
+		int milkname=milk;
+		System.out.println("print All Items's rate :"+vegrate+","+nonvegrate+","+milkname);
+	}
+	
+	public static void main(String[] args) {
+		supermark sp=new supermark("carrot","mutton","curd");
+		
+	}
+}

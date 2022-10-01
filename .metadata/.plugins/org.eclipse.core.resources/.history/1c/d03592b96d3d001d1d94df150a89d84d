@@ -1,0 +1,18 @@
+package Newpro;
+
+import java.util.Scanner;
+
+public class DAYone {
+	public int Rice() {
+		Scanner sc=new Scanner(System.in);
+		int Rice_price=sc.nextInt();
+		int Rice_Qty=sc.nextInt();
+		int total_price=Rice_price*Rice_Qty;
+		return total_price;
+	}
+
+	public static void main(String[] args) {
+		DAYone rc=new DAYone();
+		System.out.println(rc.Rice());
+	}
+}

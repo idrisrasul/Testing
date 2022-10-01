@@ -1,0 +1,36 @@
+package Newpro;
+
+import java.util.Scanner;
+
+public class DAYone {
+	public int Rice() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Rice price is :");
+		int Rice_price=sc.nextInt();
+		System.out.println("Rice QTY is :");
+		int Rice_Qty=sc.nextInt();
+		System.out.println("Total price :");
+		int total_price=Rice_price*Rice_Qty;
+		return total_price;
+	}
+ 
+	public int MILK() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("milk price is :");
+		int milk=sc.nextInt();
+		System.out.println("milk QTY is :");
+		int milk_Qty=sc.nextInt();
+		System.out.println("Total price :");
+		int total_price=milk*milk_Qty;
+		return total_price;
+	}
+	public static void main(String[] args) {
+		DAYone rc=new DAYone();
+		int rice=rc.Rice();
+		int milk=rc.MILK();
+		int grandtotal=rice+milk; 
+		System.out.println(rice);
+		System.err.println(milk);
+		System.out.println("Grand Total"+grandtotal);
+	}
+}

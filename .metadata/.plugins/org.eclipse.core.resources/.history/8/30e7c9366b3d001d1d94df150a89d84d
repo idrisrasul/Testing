@@ -1,0 +1,9 @@
+package Newpro;
+
+public class commonUtils {
+	public static String screenshort(WebDriver.driver,String Screenshot)throws Exception{
+		
+		
+	}
+
+}

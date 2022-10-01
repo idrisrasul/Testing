@@ -1,0 +1,18 @@
+package FruitDep;
+
+import java.util.Scanner;
+
+public class FriutsItems {
+	public class DAYone {
+		public int Rice() {
+			Scanner sc=new Scanner(System.in);
+			int Rice_price=sc.nextInt();
+			System.out.println("Rice price is :"+Rice_price);
+			int Rice_Qty=sc.nextInt();
+			System.out.println("Rice QTY is :"+Rice_Qty);
+			int total_price=Rice_price*Rice_Qty;
+			System.out.println("Total rice price :"+total_price);
+			return total_price;
+		}
+	}
+}

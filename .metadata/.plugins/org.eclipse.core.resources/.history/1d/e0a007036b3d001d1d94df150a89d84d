@@ -1,0 +1,35 @@
+package Newpro;
+
+public class setup {
+
+	public void getbrowserlaunch(String key) {
+		
+		switch (key) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+		switch (key){
+			case "chrome":
+				System.setProperty("WebDriver.chrome.driver","./chromedriver.exe");
+				driver=chromedriver();
+				break;
+			
+			case:"gecko"
+				System.setProperty("WebDriver.gecko.driver","./geckodriver.exe");
+				driver=firefoxdriver();
+				break;
+				
+			case:"edge"
+				System.setProperty("WebDriver.edge.driver","./edgedriver.exe");
+				driver=edgedriver();
+				break;
+			default:
+				System.out.println("The given browser is not avalable");
+				break;
+		}
+	}
+}
